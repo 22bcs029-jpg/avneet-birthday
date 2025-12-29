@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Avneet 🎀</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Password & Countdown Screen -->
+  <div id="passwordScreen" class="password-screen">
+    <div class="floating-hearts-bg">
+      <div class="floating-heart">❤️</div>
+      <div class="floating-heart">💜</div>
+      <div class="floating-heart">❤️</div>
+      <div class="floating-heart">💜</div>
+      <div class="floating-heart">❤️</div>
+    </div>
+
+    <div class="password-card">
+      <div class="card-icon">🎀</div>
+      <h1 class="card-title">A Special Surprise</h1>
+      <p class="card-subtitle">This surprise is only for you, Avneet ❤️</p>
+
+      <form id="passwordForm" class="password-form">
+        <input
+          type="password"
+          id="passwordInput"
+          placeholder="Enter password 🎀"
+          autocomplete="off"
+        />
+        <p id="passwordHint" class="password-hint">Hint: Your birthday 🎀</p>
+        <button type="submit" class="submit-btn">
+    Unlock Your Surprise 💖
+  </button>
+</form>
+
+      </form>
+
+      
+      <p id="passwordError" class="error-message"></p>
+
+      <div class="countdown-wrapper" style="margin-top: 40px;">
+        <p class="countdown-label">Countdown to your special day ⏳</p>
+        <div class="countdown">
+          <div class="countdown-box">
+            <div class="countdown-number" id="countDays">0</div>
+            <div class="countdown-text">Days</div>
+          </div>
+          <div class="countdown-box">
+            <div class="countdown-number" id="countHours">0</div>
+            <div class="countdown-text">Hours</div>
+          </div>
+          <div class="countdown-box">
+            <div class="countdown-number" id="countMinutes">0</div>
+            <div class="countdown-text">Minutes</div>
+          </div>
+          <div class="countdown-box">
+            <div class="countdown-number" id="countSeconds">0</div>
+            <div class="countdown-text">Seconds</div>
+          </div>
+        </div>
+      </div>
+
+      <p class="card-footer">Made with love, just for you 🤍</p>
+    </div>
+  </div>
+
+  <!-- Main Website -->
+  <div id="mainContent" class="main-content" style="display: none;">
+    <!-- Music Player -->
+    <button id="musicToggle" class="music-toggle" title="Toggle music">
+      <span class="music-icon">🔊</span>
+    </button>
+    <audio id="bgMusic" loop>
+      <source src="https://www.bensound.com/bensound-music/bensound-cute.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Floating Decorations -->
+    <div class="floating-deco floating-deco-1">❤️</div>
+    <div class="floating-deco floating-deco-2">✨</div>
+    <div class="floating-deco floating-deco-3">❤️</div>
+    <div class="floating-deco floating-deco-4">✨</div>
+    <div class="floating-deco floating-deco-5">❤️</div>
+
+    <!-- Hero Section -->
+    <section class="hero scroll-reveal">
+      <div class="hero-content">
+        <div class="hero-heart">❤️</div>
+        <h1 class="hero-title">Happy Birthday, Avneet 🎀❤️</h1>
+        <p class="hero-subtitle">4th January — the day the world became more beautiful</p>
+        <p class="hero-small">Scroll slowly… this is made with love 🤍</p>
+        <div class="scroll-indicator">
+          <div class="dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Emotional Message Section -->
+    <section class="message-section scroll-reveal">
+      <div class="message-card">
+        <h2 class="message-title">For You, From My Heart 🤍</h2>
+        <div class="message-body">
+          <p>Avneet,</p>
+
+          <p>I don't know when it happened,<br />
+          but somewhere between our conversations,<br />
+          your smile,<br />
+          and the way you exist so effortlessly…<br />
+          you became my safe place.</p>
+
+          <p>You have this rare magic —<br />
+          you make people feel understood without saying much,<br />
+          you make moments feel lighter,<br />
+          and you make my ordinary days feel special just by being in them.</p>
+
+          <p>With you, happiness doesn't feel loud or forced.<br />
+          It feels calm.<br />
+          It feels warm.<br />
+          It feels real.</p>
+
+          <p>Loving you isn't something I try to do —<br />
+          it just happens naturally, every single day.</p>
+
+          <p>On your birthday, remember this:<br />
+          You are deeply loved.<br />
+          You are incredibly special.<br />
+          And you matter more than you'll ever know.</p>
+
+          <p>I choose you.<br />
+          In this moment, and in every moment that follows.</p>
+
+          <p class="message-closing">Happy Birthday, my Avneet 🤍🎀</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section scroll-reveal">
+      <h2 class="section-title">Some Moments I'll Always Hold Close 🤍</h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="./src/avneet7.jpeg" alt="Memory 1" />
+          <p class="photo-caption">You, my favorite memory</p>
+        </div>
+        <div class="gallery-item">
+          <img src="./src/avneet5.jpeg" alt="Memory 2" />
+          <p class="photo-caption">Your beautiful smile</p>
+        </div>
+        <div class="gallery-item">
+          <img src="./src/avneet.jpeg" alt="Memory 3" />
+          <p class="photo-caption">Moments like these</p>
+        </div>
+        <div class="gallery-item">
+          <img src="./src/avneet4.jpeg" alt="Memory 4" />
+          <p class="photo-caption">You are beautiful</p>
+        </div>
+        <div class="gallery-item">
+          <img src="./src/avneet6.jpeg" alt="Memory 5" />
+          <p class="photo-caption">You radiate joy</p>
+        </div>
+        <div class="gallery-item">
+          <img src="./src/finale.jpeg" alt="Memory 6" />
+          <p class="photo-caption">Forever with you</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+   <!-- Video Section -->
+<section class="video-section scroll-reveal">
+  <h2 class="section-title">So Many Hearts Wanted to Wish You Today ❤️</h2>
+
+  <div class="video-wrapper">
+    <iframe
+      id="birthdayVideo"
+      width="100%"
+      height="500"
+      src="https://www.youtube.com/embed/FuSqFI9OSlU"
+      title="Birthday Wishes"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+
+    <p class="video-note">Replace video src with your YouTube/video link</p>
+  </div>
+</section>
+
+
+    <!-- Final Letter Section -->
+    <section class="letter-section scroll-reveal">
+      <div class="letter-card">
+        <h2 class="letter-title">A Letter for You 💌</h2>
+        <div class="letter-content" id="letterContent"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer-text">Made with love, just for you 🤍</p>
+      <p class="footer-credit">© 2025 • Forever Yours</p>
+    </footer>
+  </div>
+  <script src="https://www.youtube.com/iframe_api"></script>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
